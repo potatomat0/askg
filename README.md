@@ -16,10 +16,12 @@ go install github.com/mosajjal/askg/cmd/askgd@latest
 
 #### API mode
 
-first, grab an API key from Google AI studio and set it as an environment variable, then the daemon can be run using the following command
+- Go to [Google AI studio](https://aistudio.google.com/), log in with your google account
+- Click at the `Get API Key` at the left sidebar, in which there will be a `create API Key` button, click it to grab the API key
+- set it as an environment variable, then the daemon can be run using the following command:
 
 ```sh
-$ export ASKG_API_KEY="your_api_key"
+$ export ASKGD_API_KEY="your_api_key"
 $ askgd runapi
 ```
 
